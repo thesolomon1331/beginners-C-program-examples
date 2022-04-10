@@ -13,8 +13,8 @@
 int binarySearch(int[], int, int, int);
 
 int main() {
-	int arr[] = {5, 15, 24, 32, 56, 89};
-    /* check length of array */
+	int arr[] = {5, 15, 24, 32, 56, 89}; // arr is array name
+   	 /* check length of array */
 	int size_of_array = sizeof(arr) / sizeof(int);
 	/* Check if 24 is into arr */
 	printf("%d\n", binarySearch(arr, 24, 0, size_of_array-1));
